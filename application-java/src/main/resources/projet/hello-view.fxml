@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" prefHeight="317.0" prefWidth="497.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="projet.ProjetController">
+  <padding>
+    <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+  </padding>
+   <HBox alignment="CENTER" prefHeight="57.0" prefWidth="457.0" spacing="30.0">
+      <children>
+        <Button onAction="#onQ1Click" text="Question 1" />
+         <Button mnemonicParsing="false" onAction="#onQ2Click" text="Question 2" />
+         <Button layoutX="110.0" layoutY="47.0" mnemonicParsing="false" onAction="#onQ3Click" text="Question 3" />
+         <Button layoutX="144.0" layoutY="47.0" mnemonicParsing="false" onAction="#onQ4Click" text="Question 4" />
+      </children>
+   </HBox>
+   <TextArea fx:id="response" prefHeight="200.0" prefWidth="200.0" />
+</VBox>
